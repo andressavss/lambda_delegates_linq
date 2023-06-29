@@ -36,7 +36,7 @@ class Program
         };
 
         var r1 = products.Where(p => p.Category.Tier == 1 && p.Price < 900.0);
-        Print("TIER 1 AND Price < 900:", r1);
+        Print("TIER 1 AND Price < 900.0:", r1);
 
         var r2 = products.Where(p => p.Category.Name == "Tools").Select(p => p.Name);
         Print("NAMES OF PRODUCTS FROM TOOLS:", r2);
