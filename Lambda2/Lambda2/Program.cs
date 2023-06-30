@@ -11,7 +11,7 @@ class Program
         Console.Write("Enter full file path: ");
         string path = Console.ReadLine();
 
-        Console.Write("Enter the salary: ");
+        Console.Write("Enter salary: ");
         double value = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
         List<Employee> list = new List<Employee>();
